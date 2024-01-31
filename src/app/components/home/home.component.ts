@@ -12,7 +12,7 @@ import { APIResponse, Game } from '../../models';
 export class HomeComponent implements OnInit{
     public sort: string = '';
     public games: Array<Game> = [];
-
+    
     constructor(private httpService: HttpService, private activatedRoute: ActivatedRoute) { }
 
     ngOnInit(): void {
